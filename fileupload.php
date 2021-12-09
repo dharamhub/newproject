@@ -8,5 +8,6 @@ if(move_uploaded_file($_FILES['fileToUpload']['tmp_name'], $target_path)) {
 	header("Location: test.php");
 
 } else{  
+    echo "Hello This is Test Messsage";
     echo "Sorry, file not uploaded, please try again  Test!"; 
 }  
